@@ -107,3 +107,4 @@ Program FlappyBird adalah sebuah game sederhana yang dibuat menggunakan Java Swi
 - Mengatur ulang skor dan status game.
 
 ## Dokumentasi
+https://github.com/user-attachments/assets/005dfafb-3929-4afb-ac64-6c162d113d88
