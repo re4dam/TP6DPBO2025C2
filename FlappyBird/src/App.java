@@ -8,13 +8,10 @@ public class App {
         frame.setSize(360, 640);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
-        // frame.setVisible(true);
 
-        // buat objek JPanel
-        FlappyBird flappyBird = new FlappyBird();
-        frame.add(flappyBird);
-        frame.pack();
-        flappyBird.requestFocus();
+        // Tampilkan menu pertama kali
+        MenuPanel menuPanel = new MenuPanel(frame);
+        frame.add(menuPanel);
         frame.setVisible(true);
     }
 }
